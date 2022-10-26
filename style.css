@@ -10,5 +10,44 @@
     BODY
 --------------*/
 .container {
-    
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items {
+    width: 50rem;
+    height: 28rem;
+    position: relative;
+}
+.next, .prev {
+    width: 1.5625rem;
+    height: 1.5625rem;
+    margin: 10px 0;
+    background-color: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 100;
+}
+.next {
+    bottom: 0;
+}
+#centrate-arrow {
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+.item img {
+    width: 100%;  
+    object-fit: cover;
+}
+.item {
+    display: none;
+}
+.active {
+    display: block;
 }
