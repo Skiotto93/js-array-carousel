@@ -32,6 +32,7 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 100;
+    cursor: pointer;
 }
 .next {
     bottom: 0;
