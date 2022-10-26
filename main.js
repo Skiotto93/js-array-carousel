@@ -20,3 +20,9 @@ for(let i = 0; i < images.length ; i++) {
 }
 
 let active = 0;
+
+const prev = document.querySelector(".next");
+prev.addEventListener('click', function() {
+    
+}
+)
